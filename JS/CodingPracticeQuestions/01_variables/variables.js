@@ -1,7 +1,7 @@
 // console.log("Hello World");
 // console.log("I am learning JavaScript");
 
-let name = "Rahul";
+// let name = "Rahul";
 name = "Anjali";
 const name = "Nilesh";
 
