@@ -53,3 +53,47 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnPropertyy('isLogged'))
 console.log(tinderUser.hasOwnPropertyy('isLoggedIn'))
 
+
+// Object Destructuring
+
+const course = {
+    coursename: "js in hindi", 
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// concept used in React
+/* const navbar = ({company}) => {
+
+}
+
+navbar(company = "hitesh")  */
+
+// destructure doesn't happen only of object, but also of arrays.
+
+
+// JSON syntax understanding
+// {
+//     "name":"hitesh", 
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+// API sometimes comes in the array format
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+
+// API -> random user me api
+// Json formatter - tool to understand json data, even you can create one yourself.
