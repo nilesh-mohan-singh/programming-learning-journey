@@ -83,3 +83,25 @@ fruits.forEach(fruit => console.log(fruit));
 // Apple
 // Banana
 // Cherry
+
+
+// Some More Array Methods - map, filter, reduce
+
+// map - creates a new array with the results of calling a provided function on every element in the calling array
+let allNumbers = [1, 2, 3, 4, 5];
+let squaredNumbers = allNumbers.map(function(number) {
+    return number * number;
+});
+console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+
+// filter - creates a new array with all elements that pass the test implemented by the provided function
+let evenNumbers = allNumbers.filter(function(number) {
+    return number % 2 === 0;
+});
+console.log(evenNumbers); // Output: [2, 4]
+
+// reduce - executes a reducer function on each element of the array, resulting in a single output value
+let sumOfNumbers = allNumbers.reduce(function(accumulator, currentValue) {
+    return accumulator + currentValue;
+}, 0);
+console.log(sumOfNumbers); // Output: 15
