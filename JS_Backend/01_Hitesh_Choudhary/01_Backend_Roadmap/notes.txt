@@ -1,0 +1,26 @@
+Backend Development
+2 Major Components of Backend
+1. One Programming Language - Js, Python, Php, C, Java, golang, c++, etc with one framework
+2. One Database - SQL(MySQL, Sqlite3, PostgreSQL), NoSQL(MongoDB) with one framework ORM ODM
+
+
+A JavaScript based Backend
+Data        File        Third Party (API)
+
+A JS Runtime: Nodejs/Deno/Bun
+Package.json        .env        (Readme, git, lint, prettier, etc)
+
+src
+index-DB connects       APP-config, cookie, urlencode         constants-enums,DB-name
+
+
+Directory Structures
+    DB
+    Models
+    Controllers
+    Routes
+    Middlewares
+    Utils
+    More (depends)
+
+
