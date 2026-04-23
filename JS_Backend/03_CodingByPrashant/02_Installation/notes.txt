@@ -1,0 +1,9 @@
+1. What is IDE
+2. Need of IDE
+3. MAC Setup
+4. Windows Setup
+5. Linux Setup
+6. VsCode (Extensions and Settings)
+7. Executing first.js file
+8. What is REPL
+9. Executing Code via REPL
