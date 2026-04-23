@@ -1,0 +1,21 @@
+{
+  "name": "02_deploy_backend_code",
+  "version": "1.0.0",
+  "description": "a basic node backend app to test",
+  "keywords": [
+    "chai",
+    "node",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Nilesh Mohan Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
