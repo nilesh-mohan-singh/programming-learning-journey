@@ -1,0 +1,224 @@
+/* Level 4 - Flexbox */
+body {
+    text-align: center;
+}
+
+/* div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 800px;
+    height: 200px;
+} */
+
+/* #box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: pink;
+}
+
+#box3 {
+    background-color: darkkhaki;
+}
+
+#box4 {
+    background-color: indianred;
+}
+
+#box5 {
+    background-color:slateblue;
+} */
+
+
+
+
+
+/* Understanding Flexbox */
+/* div {
+    height: 20px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+} */
+
+/* #container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+} */
+
+/* #container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+} */
+
+
+/* Flex Properties-justify content*/
+/* #container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column; 
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+} */
+
+/* Flex Property - align item & align-content*/
+/* div {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+} */
+
+/* #container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+} */
+
+/* #container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: pink;
+    height: 200px;
+    align-self: flex-end;
+}
+
+#box3 {
+    background-color: darkkhaki;
+    height: 75px;
+}
+
+#box4 {
+    background-color: indianred;
+}
+
+#box5 {
+    background-color:slateblue;
+    align-self: flex-end;
+} */
+
+
+
+
+/* Other Flex properties - flex shrink and flex grow */
+/* div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#box1 {
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#box2 {
+    background-color: pink;
+    height: 200px;
+    flex-shrink: 2;
+    flex-shrink: 0.5;
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+
+#box3 {
+    background-color: darkkhaki;
+    height: 75px;
+}
+
+#box4 {
+    background-color: indianred;
+}
+
+#box5 {
+    background-color:slateblue;
+} */
+
+
+
+/* 4hrs 35 mins */
+
+/* Media Queries - Help ceate a responsive website */
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media(width: 600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media(min-width: 600px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media(max-width: 600px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media(min-width:200px) and (max-width:300px) {
+    div {
+        background-color: red;
+    }
+}
+
+/* Level 4 finished  - 4 hrs 47 mins*/

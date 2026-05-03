@@ -1,0 +1,225 @@
+/* Level 3 - Units in CSS */
+
+/* Using Absolute (px) unit */
+/* #box1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+} */
+
+/* #box2 {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+} */
+
+
+/* Using relative (%) unit */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+} */
+
+
+/* Using em */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em;
+} */
+
+
+/* Using rem */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+} */
+
+
+/* Using vh & vw */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+    height: 80vh;
+    width: 40vw;
+} */
+
+
+/* Using "Position" Property */
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+} */
+
+/* static means by default and no property will work for it if position is static*/
+/* #box1 {
+    position: static;
+    top: 50px;
+    bottom: 50px;
+} */
+
+
+/* #box1 {
+    position: static;
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+} */
+
+
+
+/* #box3 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+} */
+
+/* #box4 {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 100%;
+} */
+
+/* #box4 {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    width: 100vw;
+} */
+
+
+/* #box3 {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+
+#box4 {
+    position: fixed;
+    top:0;
+} */
+
+
+/* #box3 {
+    position: sticky;
+    top: 500px;
+    left: 20px;
+}
+
+#box4 {
+    position: fixed;
+    top:0;
+} */
+
+
+/* #box3 {
+    position: sticky;
+    top: 0px;
+    left: 20px;
+}
+
+#box4 {
+    position: fixed;
+    top:0;
+} */
+
+
+
+
+
+/* Understanding Z-index */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+#box3 {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+
+#box4 {
+    position: fixed;
+    top: 50px;
+    z-index: 3;
+    z-index: -3;
+}
+
+
+
+/* Using background Image */
+#box1 {
+    background-image: none;
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url(https://avatars.githubusercontent.com/u/214790707?v=4);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/* Level 3 finished - 3 hrs 50 mins completed */

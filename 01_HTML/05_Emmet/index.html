@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+        > - nested
+        + - sibling
+        * - sibling
+        {} - Inserting
+        # - Id
+        . - class 
+    -->
+
+    <!-- 
+    ! - Inserts Doctype html tag
+    > - nested
+    + - sibling
+    * - sibling
+    {} - Inserting
+    # - Id
+    . - class
+
+    ul>li - inserts an li tag inside an ul tag
+    ul>li>a - Inserts a tag inside a li tag inside an ul tag
+    ul>li*3 - inserts 3 li tags inside an ul tag
+    div - inserts a div tag
+    div>p*3 - inserts 3 p tags inside a div tag 
+    -->
+
+    <!-- header+main+footer -->
+    <header></header>
+    <main></main>
+    <footer></footer>
+
+    <!-- header+main>(div+span)*4 -->
+    <header></header>
+    <main>
+        <div></div>
+        <span></span>
+        <div></div>
+        <span></span>
+        <div></div>
+        <span></span>
+        <div></div>
+        <span></span>
+    </main>
+
+    <!-- body>div+span -->
+    <body>
+        <div></div>
+        <span></span>
+    </body>
+    
+    <!-- ul>li*3  -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- div>p*3 -->
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+
+    <!-- div>ul>ol>li*3 -->
+    <div>
+        <ul>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </ul>
+    </div>
+
+    <!-- div>(header>ul>li*3>a)+footer>p1 -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+    
+    <!-- #div*4 -->
+    <div id="div"></div>
+    <div id="div"></div>
+    <div id="div"></div>
+    <div id="div"></div>
+
+    <!-- .div*4 -->
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    
+</body>
+</html>

@@ -1,0 +1,160 @@
+/* Level 2 - Box Model */
+/* div {
+    height:50px;
+}
+
+div {
+    width:50px;
+} */
+
+/* div {
+    border-width: 2px;
+    border-style: solid;
+    border-style: dotted;
+    border-style: dashed;
+    border-color: black;
+}
+
+div {
+    border: 2px solid brown;
+}
+
+div {
+    border-radius: 10px;
+    border-radius: 50%;
+}
+/*
+
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius:15px;
+    border-radius:50%;
+} */
+
+
+
+
+
+/* padding */
+/* div {
+    padding-left: 25px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+} */
+
+/* div {
+    padding: 50px;
+} */
+
+/* div {
+    padding: 1px 2px 3px 4px;
+} */
+
+/* 
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius:15px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom:25px;
+    padding: 50px;
+    padding:1px 2px 3px 4px;
+} */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    padding:1px 2px 3px 4px;
+} */ 
+
+
+
+
+/* Margin */
+
+/* div {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    margin-right: 4px;
+} */
+
+/* div {
+    margin: 25px;
+} */
+
+/* div {
+    margin: 1px 2px 3px 4px;
+} */
+
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    padding:1px 2px 3px 4px;
+    margin: 1px 2px 3px 4px;
+} */
+
+/* 2 hrs 38 mins */
+
+
+
+
+/* Display Property */
+/* div {
+    background-color: pink;
+    display: inline;
+} */
+
+/* button {
+    display: block;
+} */
+
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    display: inline-block;
+}
+
+/* #box2 {
+    display: none;
+} */
+
+/* #box2 {
+    visibility:hidden;
+} */
+
+
+/* Alpha Channel - Opacity */
+#box1 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#box2 {
+    background-color: rgba(0, 0, 255, 0.75);
+}
+
+#box3 {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+
+/* Level 2 completed -  */

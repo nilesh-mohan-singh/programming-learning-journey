@@ -1,0 +1,121 @@
+/* 
+h1 {
+    color: green;
+}
+
+p {
+    color:red;
+}
+
+button {
+    color:brown;
+}
+
+button {
+    color:white;
+    background-color:green;
+}
+
+button {
+    color:rgb(0, 165, 42);
+    background-color:#03f4fc;
+    background-color:white;
+}
+
+
+body {
+    background-color:lightpink;
+    background-color:lightcyan; 
+    background-color: rgba(190, 140, 255, -0.2); 
+}
+
+
+
+
+*/
+/* Selectors */
+/*
+*{
+    color:rgb(8, 121, 226);
+}
+
+h1 {
+    color:green
+}
+
+button {
+    color:brown;
+}
+
+#heading1 {
+    color:red;
+}
+
+#heading2 {
+    color:darkviolet;
+}
+
+.myClass {
+    color:darkorange;
+}
+*/
+/* 1 hr 17.5 mins completed */
+
+
+
+
+
+
+
+/* Text Properties */
+p {
+    text-align: start;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+}
+
+#h1 {
+    font-weight:normal;
+}
+
+/* #One {
+    font-family:arial;
+} */
+
+/* #one {
+    font-size:25px;
+} */
+
+/* #one {
+    font-size: 25px;
+    line-height: 2px;
+} */
+
+#one {
+    font-family:arial;
+    font-size:25px;
+    line-height:2px;
+    line-height: normal;
+    text-transform:uppercase;
+}
+
+#two {
+    font-family: arial, roboto, tahoma;
+}
+    
+/* #three {
+    font-size:1px;
+} */
+
+
+#three {
+    font-size:10px;
+}
+
+/* Level 1 completed - 1 hrs 55 mins */
